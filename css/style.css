@@ -99,31 +99,20 @@ body {
 }
 
 }
-.img-hands-xl1 {
-   margin-top: 30%;
-    width: 50%;
-    margin-bottom: 20px;
-    margin-top: 10em;
-    margin-left: 10%;
-    align-items: center;
-    border-radius: 20px;
-    height: 400px;
-    margin-left: 25%;
-
-
-
+.aboutUs-img{
+    display: flex;
 }
+.img-hands-xl1 {
+    width: 50%;
+    margin: 120px auto;
+    border-radius: 20px;
+}
+
 @media(max-width: 1000px){
     .img-hands-xl1 {
-   
-    width: 90%;
-    margin-bottom: 20px;
-    margin-top: 5em;
-    margin-left: 6%;
-    align-items: center;
-
-
-}
+        width: 70%;
+        margin-top: 300px;
+    }
 
 }
 
@@ -880,6 +869,10 @@ span {
 @media (max-width: 780px) {
     .navbar a:nth-child(2) {
         color: var(--white-color);
+    }
+    .img-hands-xl1{
+        width: 90%;
+        margin-top: 300px;
     }
 }
 
