@@ -1076,7 +1076,7 @@ span {
         font-size: 50%;
     }
     .aboutUs-img {
-        margin-top: 14em;
+        margin-top: 17em;
     }
 
     #darkMode-icon {
@@ -1122,9 +1122,12 @@ span {
     }
 }
 
-@media (max-width: 315px) {
+@media (max-width: 380px) {
     .home-content h1 {
         font-size: 4.5rem;
+    }
+    .aboutUs-img {
+        margin-top: 18em;
     }
 }
 
