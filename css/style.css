@@ -74,9 +74,6 @@ body {
     font-weight: 500;
     margin-right: 3rem;
 }
-.teste2 {
-
-}
 .img-hands-xl {
 
     width: 80%;
@@ -102,19 +99,22 @@ body {
 }
 .aboutUs-img{
     display: flex;
+    margin-top: 120px;
+    justify-content: center;
 }
 .img-hands-xl1 {
     width: 50%;
-    margin: 120px auto;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 @media(max-width: 1000px){
     .img-hands-xl1 {
         width: 70%;
+    }
+    .aboutUs-img{
         margin-top: 300px;
     }
-
 }
 
 .about-content2 h2 {
@@ -871,9 +871,11 @@ span {
     .navbar a:nth-child(2) {
         color: var(--white-color);
     }
+    .aboutUs-img {
+        margin-top: 300px;
+    }
     .img-hands-xl1{
         width: 90%;
-        margin-top: 300px;
     }
 }
 
@@ -1036,6 +1038,10 @@ span {
         margin-top: -2rem;
     }
 
+    .aboutUs-img {
+        margin-top: 250px;
+    }
+
     .testimonial-container .testimonial-wrapper {
         padding: 5rem 0;
     }
@@ -1070,6 +1076,9 @@ span {
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+    .aboutUs-img {
+        margin-top: 37em;
     }
 
     #darkMode-icon {
@@ -1118,6 +1127,9 @@ span {
 @media (max-width: 380px) {
     .about-img img {
         width: 90vw;
+    }
+    .aboutUs-img {
+        margin-top: 10rem;
     }
 }
 
