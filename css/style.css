@@ -1122,10 +1122,12 @@ span {
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 315px) {
     .home-content h1 {
         font-size: 4.5rem;
     }
+}
+@media (max-width: 380px) {
     .aboutUs-img {
         margin-top: 18em;
     }
