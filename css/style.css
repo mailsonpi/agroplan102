@@ -1,3 +1,4 @@
+ 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -74,10 +75,10 @@ body {
     margin-right: 3rem;
 }
 .teste2 {
-    
+
 }
 .img-hands-xl {
-   
+
     width: 80%;
     margin-bottom: 20px;
     margin-top: 5em;
@@ -88,7 +89,7 @@ body {
 }
 @media(max-width: 1000px){
     .img-hands-xl {
-   
+
     width: 90%;
     margin-bottom: 20px;
     margin-top: 5em;
@@ -98,38 +99,27 @@ body {
 
 }
 
+}
+.aboutUs-img{
+    display: flex;
 }
 .img-hands-xl1 {
-   margin-top: 30%;
     width: 50%;
-    margin-bottom: 20px;
-    margin-top: 10em;
-    margin-left: 10%;
-    align-items: center;
+    margin: 120px auto;
     border-radius: 20px;
-    height: 400px;
-    margin-left: 25%;
-
-
-
 }
+
 @media(max-width: 1000px){
     .img-hands-xl1 {
-   
-    width: 90%;
-    margin-bottom: 20px;
-    margin-top: 5em;
-    margin-left: 6%;
-    align-items: center;
-
-
-}
+        width: 70%;
+        margin-top: 300px;
+    }
 
 }
 
 .about-content2 h2 {
     text-align: Center;
-    
+
     line-height: 1.2;
     color: #006633;
 }
@@ -291,7 +281,7 @@ section {
     border-color: #006633;
 }
 .btn1 {
- 
+
     display: inline-block;
     padding: 2.6rem 3.4rem;
     background: #006633;
@@ -463,9 +453,9 @@ span {
     text-align: center;
 }
 .heading2 {
-    
+
     font-size: 15px;
-    
+
 }
 
 .about-content h2 {
@@ -500,7 +490,7 @@ span {
 }
 
 .services-container .services-box {
-    
+
     flex: 1 1 1rem;
     background: var(--bg-color);
     padding: 3rem 2rem 4rem;
@@ -690,7 +680,7 @@ span {
 
 .contact {
     padding: 5px;
-    
+
     min-height: auto;
     padding-bottom: 7rem;
 }
@@ -700,7 +690,7 @@ span {
 }
 
 .contact form {
-   
+
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
@@ -880,6 +870,10 @@ span {
 @media (max-width: 780px) {
     .navbar a:nth-child(2) {
         color: var(--white-color);
+    }
+    .img-hands-xl1{
+        width: 90%;
+        margin-top: 300px;
     }
 }
 
