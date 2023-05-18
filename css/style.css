@@ -412,7 +412,7 @@ section {
     height: 0;
     border-top: 50vh solid #00323D;
     border-right: 384px solid #00323D;
-    border-bottom: 50vh solid #00323D;
+    border-bottom: 55vh solid #00323D;
     border-left: 384px solid transparent;
 }
 
@@ -1127,9 +1127,35 @@ span {
         font-size: 4.5rem;
     }
 }
-@media (max-width: 380px) {
+
+@media screen and (max-width: 450px) and (min-height: 700px) {
     .aboutUs-img {
-        margin-top: 18em;
+        margin-top: 20em;
+    }
+}
+@media screen and (max-width: 450px) and (min-height: 740px) {
+    .aboutUs-img {
+        margin-top: 25em;
+    }
+}
+@media screen and (max-width: 450px) and (min-height: 780px) {
+    .aboutUs-img {
+        margin-top: 30em;
+    }
+}
+@media screen and (max-width: 450px) and (min-height: 780px) {
+    .aboutUs-img {
+        margin-top: 30em;
+    }
+}
+@media screen and (max-width: 450px) and (min-height: 815px) {
+    .aboutUs-img {
+        margin-top: 40em;
+    }
+}
+@media screen and (max-width: 450px) and (min-height: 900px) {
+    .aboutUs-img {
+        margin-top: 50em;
     }
 }
 
