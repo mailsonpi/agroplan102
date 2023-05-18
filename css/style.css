@@ -1080,7 +1080,7 @@ span {
         font-size: 50%;
     }
     .aboutUs-img {
-        margin-top: 37em;
+        margin-top: 33em;
     }
 
     #darkMode-icon {
@@ -1123,21 +1123,6 @@ span {
     .footer p {
         text-align: center;
         margin-top: 2rem;
-    }
-}
-
-@media (max-width: 380px) {
-    .about-img img {
-        width: 90vw;
-    }
-    .aboutUs-img {
-        margin-top: 10rem;
-    }
-}
-
-@media (max-width: 360px) {
-    .aboutUs-img {
-        margin-top: 20rem;
     }
 }
 
