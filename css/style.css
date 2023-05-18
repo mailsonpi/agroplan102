@@ -1035,10 +1035,6 @@ span {
         text-align: center;
     }
 
-    .about-img img {
-        width: 70vw;
-        margin-top: -2rem;
-    }
 
     .aboutUs-img {
         margin-top: 250px;
@@ -1080,7 +1076,7 @@ span {
         font-size: 50%;
     }
     .aboutUs-img {
-        margin-top: 33em;
+        margin-top: 14em;
     }
 
     #darkMode-icon {
