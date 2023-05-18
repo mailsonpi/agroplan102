@@ -453,9 +453,11 @@ span {
     text-align: center;
 }
 .heading2 {
-
     font-size: 15px;
 
+}
+.aboutUs-title {
+    font-size: 35px;
 }
 
 .about-content h2 {
@@ -1130,6 +1132,12 @@ span {
     }
     .aboutUs-img {
         margin-top: 10rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .aboutUs-img {
+        margin-top: 20rem;
     }
 }
 
